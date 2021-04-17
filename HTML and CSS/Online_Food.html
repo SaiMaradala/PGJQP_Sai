@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Online_Food
+       </title>
+             <style>
+                 body{
+                     background-color: rgb(38, 209, 195);
+                 }
+                 
+                    .autostyle2
+                    {
+                     color: rgb(8, 8, 8);
+                    font-size: 50px;
+                    text-align: center;
+                    }
+             </style>
+    </head>
+    
+    <body bgcolor="white" >
+      
+      
+        <form action="Registration.html">
+            
+       
+            <table border="2">
+                <tr class="autostyle2">
+                    <td colspan="4">Online Food</td></tr>
+                   <tr> <td width="100%" colspan="4"></td></tr>
+                   <tr><td>
+                       Name:
+                    </td>
+                    <td>
+                        <input type="text" name="User Name" placeholder="Enter your Name"required></td>
+                    </td>
+                </tr>
+                <tr>
+                       <td>Date:</td> 
+                       <td><input type="date" name="Date" required ></td>
+                </tr>
+                <tr>
+                    <td>
+                        Email_ID:
+                    </td>
+                    <td>
+                        <input type="email" name="Email_ID" placeholder="Enter Your Email_ID" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Contact Number:
+                    </td>
+                    <td><input type="tel" name="Phone Number" placeholder="Enter Your Number" required></td>
+                </tr>
+                <tr>
+                    <td> Select Food:</td>
+                    <td> Non-Veg <input type="button"name=Radio Button1>
+                        Veg  <input type="button" name=Radio Button2></td>
+                </tr>
+                <tr>
+                    <td>
+                        Select Restaurant:</td>
+                        <td><Select><option value="opt1">Select your Restaurant</option>
+                            <option value="opt2">Sai Nagar</option>
+                            <option value="opt3">Raghu Veera towers</option>
+                            <option value="opt4">Sapthagiri</option>
+                            <option value="opt5">Tower Clock</option>
+                            <option value="opt6">Gooty Road</option>
+                           </Select>
+                    </td>
+
+                </tr>
+                <tr>
+                    <td>Drinks:</td>
+                    <td><select><option value="opt7">Select your Drink</option>
+                    <option value="opt8">Sprite</option>
+                <option value="opt9">Mango</option>
+            <option value="opt10">Thumbups</option></select></td>
+                </tr>
+                <tr>
+                    <td>Soups:</td>
+                    <td><select><option value="opt11">Select your Soup</option>
+                    <option value="opt12">Minestrone</option>
+                <option value="opt13">Fonduta</option>
+            <option value="opt14">Pasta</option></select></td>
+                </tr>
+                <tr>
+                    <td>
+                        Dishes:
+                    </td>
+                    <td><select><option value="opt15">Select your Dishes</option> 
+                    <optgroup label="South_Indian Foods">
+                        <option value="opt16">Dosa</option>
+                        <option value="opt17">Chapathi</option>
+                        <option value="opt18">Puri</option>
+                        <option value="opt19">Ragi Mudha</option>
+                    </optgroup>
+                    <optgroup label="Chinese_Foods">
+                        <option value="opt20">Gobi</option>
+                        <option value="opt21">Gobi_Rice</option>
+                        <option value="opt22">Noodles</option>
+                        <option value="opt23">Egg Rice</option>
+                    </optgroup>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="Order for:">Order for:</label></td>
+                        
+                        <td><label for="pickup">Take Away</label>
+                        <input type="radio" name="pick up" id="pickup">
+                        <label for="home">Home Delivery</label>
+                        <input type="radio" name="pickup" id="pickup"> </td>
+
+                        <tr>
+                            <td>Address:</td>
+                            <td> <textarea rows="3" cols="16" id="Order for">Enter your Address here</textarea></td></tr>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="State">State:</label>
+                    </td>
+                    <td><input list="State" name="State" placeholder="Select your state" ></td>
+                    <datalist id="State">
+
+                        <option value="Andhra Pradesh"></option>
+                        <option value="Hyderabad"></option>
+                        <option value="Chennai"></option>
+                    </datalist>
+                </tr>
+                <tr>
+                    <td>
+                        <button id="Button" type="Submit"><p>Submit</p></button>
+                        <button id="Reset" type="reset"><p>reset</p></button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+    
+</html>
