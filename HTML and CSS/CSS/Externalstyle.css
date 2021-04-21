@@ -1,0 +1,13 @@
+p
+{
+font-size: 25pt;
+color: blue;
+font-style: italic;
+}
+h1
+{
+    font-size: 30pt;
+    color: chartreuse;
+    font-style: italic;
+    font-weight: bold;
+}
